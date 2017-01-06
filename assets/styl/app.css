@@ -1,0 +1,78 @@
+/*
+	- Application Build order
+*/
+@mixin font-brand() {
+  fotn-family: "UI font", sans-serif;
+  font-weigth: 400;
+}
+* {
+  box-sizing: border-box;
+}
+.base-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.base-list > .item {
+  padding: 15rem;
+}
+.App {
+  display: flex;
+  text-align: center;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: #fff;
+}
+.App-intro {
+  font-size: large;
+}
+@-moz-keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.site-footer > .socialnetworks {
+  margin: 15px;
+}
+.-clearfix:after,
+.-clearfix:before {
+  content: "";
+  display: table;
+}
+.-clearfix:after {
+  clear: both;
+}
