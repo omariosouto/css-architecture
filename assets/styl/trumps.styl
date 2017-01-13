@@ -6,11 +6,16 @@
 
 */
 
-.-clearfix
-  &:after,
-  &:before
+._clearfix
+  &:before,
+  &:after
     content: ""
     display: table
 
   &:after
     clear: both
+
+._img-responsive
+  display block
+  min-width 100%
+  height auto
